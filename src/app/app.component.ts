@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolioo';
+
+  // onclick scroll to top
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
 }
