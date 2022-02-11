@@ -97,9 +97,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+
+              "./src/assets/js/vendor/jquery.js",
+              "./src/assets/js/vendor/modernizer.min.js",
+              "./src/assets/js/vendor/feather.min.js",
+              "./src/assets/js/vendor/slick.min.js",
+              "./src/assets/js/vendor/bootstrap.js",
+              "./src/assets/js/vendor/text-type.js",
+             "./src/assets/js/vendor/wow.js",
+             "./src/assets/js/vendor/aos.js",
+             "./src/assets/js/vendor/particles.js",
+             "./src/assets/js/main.js"
+
+
+            ]
           }
         }
       }
